@@ -4,7 +4,7 @@ Three weeks ago, no one imagined that you will be solving problems as hard as th
 
 Starting at the top of the great volcano, Harry needs to go down the whole mountain to reach the safe ground. But Zoron's place is full of traps. In his way down, Harry must pass on these traps as he has no other choice (No! the eagles will not save the day Mr. Gandalf :D)  the traps are laid in rows from top to bottom, with each row having one more trap than the row preceding it, and each trap is marked with the amount of damage it gives as shown in the picture below. Harry can go down one row at a time and he can only move to an adjacent trap on the row below.
 
-*** image.png ***
+*** example image link *** https://github.com/MohammedHasan-99/challenges/blob/main/image.png
 
 
 If you are given the trap map as a 2d array (where the first row contains 1 number, the second contains 2 numbers, the nth contains n numbers … and so on), write a java method that calculates the minimum amount of damage Harry must take in order for him to reach safety. For example, the minimum amount of damage in the picture above is 21 and can be achieved by moving along the highlighted traps. Note that you don't have to give Harry the traps or the map, you only need to tell him that the minimum amount of damage is 21, and he will take care of the rest. But be careful, If you tell him the correct number he will survive. Tell him the wrong info and Harry will be doomed!  
